@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<title>menu</title>
+<style>
+    .clearfix::after{
+	    content:"";
+	    display:blok;
+	    clear:both;
+	    width:0;
+	    height:0;
+	    font-size:0;
+}
+    .menu{
+	    background-color:#cccccc;
+		width:400px;
+		height:25px;
+		border-bottom:8px solid #ea8219;
+        padding:0px 10px;
+}
+	.menu li{
+		list-style-type:none;
+		float:left;
+		font-size:12px;
+        padding:0px 10px;
+        margin:5px;
+
+	}
+	.menu li a:hover{
+		background-color:#1be57d;
+	}
+	a{
+		text-decoration:none;
+        
+	}
+</style>
+</head>
+<body>
+	<ul class="menu clearfix">
+		<li><a href="#">公司首页</a></li>
+		<li><a href="#">旗下产品</a></li>
+		<li><a href="#">团队介绍</a></li>
+		<li><a href="#">联系我们</a></li>
+		<li><a href="#">关于我们</a></li>
+	</ul>
+
+
+</body></html>
